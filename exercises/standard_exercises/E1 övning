@@ -21,6 +21,22 @@ public class E1Ovning {
 
         y = x;
         System.out.println(x);
+        //1.6
+        int numberOfStudents = 23; //Ja
+        char = classroomIdentifier = 'B';//Ja
+        int backgroundColor = "blue"; // Nej
+        boolean above50%; // Nej
+        boolean isNative = 0; // Nej
+        String exampleString = "This is an example string"; //Ja
+        int gravitationalForce = 9.82; //Nej
+        double gravitationalForce = 9.82; //Ja
+        byte screenResolutionX = 1024; //Nej
+        char smileyFace = '\u263a'; //Unicode, Ja
+
+        //1.7
+        
+
+
 
 
         
