@@ -2,10 +2,12 @@
 
 public class HelloWorld {
     public static void main(String[] args) {
-        int x = 25;
-        System.out.println(x);
-        System.out.println("Heja");
-        System.out.println( " Tjaba");
+        int i = 1;
+
+        while (i < 0) {
+            System.out.println(i);
+            i++;
+        }
     }
     
 }
