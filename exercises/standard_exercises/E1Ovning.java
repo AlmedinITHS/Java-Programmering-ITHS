@@ -2,14 +2,18 @@ public class E1Ovning { //Namnet på filen
     public static void main (String [] args) {
         //1.1
         String a;
-        int myAge;
-        myAge = 36;
+       // int myAge;
+        //myAge = 36;
 
         int myAge = 36;
         //1.2
+        String myFirstName;
+        myFirstName = "Dino";
+
+        String myFirstName2 = "Dino";
 
         //1.3
-        String myName = "Tom";
+        System.out.println("My name is" + myFirstName + " and I am " + myAge);
         //1.4
         boolean theTruth = false;
         System.out.println(theTruth);
@@ -19,21 +23,38 @@ public class E1Ovning { //Namnet på filen
         System.out.println(x);
         System.out.println(y);
 
-        y = x;
+        x = y; // funkar, men inte y = x pga att det inte går att typecast-konvertera
         System.out.println(x);
         //1.6
         int numberOfStudents = 23; //Ja
-        char = classroomIdentifier = 'B';//Ja
+        char classroomIdentifier = 'B';//Ja
         int backgroundColor = "blue"; // Nej
         boolean above50%; // Nej
         boolean isNative = 0; // Nej
         String exampleString = "This is an example string"; //Ja
         int gravitationalForce = 9.82; //Nej
-        double gravitationalForce = 9.82; //Ja
+        double gravitationalForceD = 9.82; //Ja
         byte screenResolutionX = 1024; //Nej
         char smileyFace = '\u263a'; //Unicode, Ja
 
         //1.7
+
+        /*a. The calypso variable is of type Ship 
+        
+        b. It is a two-part statement. 
+        The left-hand side of the @ designates the type of the object that is referenced. 
+        The right-hand side contains the reference itself, a series of 8 alpha-numerical 
+        characters*/
+
+        //1.8
+        //a
+        x = 8;
+        y = 24;
+        //b
+        int x2 = 4;
+        short y2 = 12; 
+        // Yes, it's a valid variable declaration statement because 12 fits
+        // in a 16 bit integer variable, which is called short 
 
         //1.10
         int a = 10, b = 20, c = 30;
@@ -43,7 +64,9 @@ public class E1Ovning { //Namnet på filen
         System.out.println(format: " The average is " + average);
 
         int nummer = 56;
-         
+
+
+
 
 
 
