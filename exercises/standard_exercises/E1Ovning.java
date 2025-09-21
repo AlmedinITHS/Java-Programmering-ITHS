@@ -57,13 +57,23 @@ public class E1Ovning { //Namnet på filen
         // in a 16 bit integer variable, which is called short 
 
         //1.10
-        int a = 10, b = 20, c = 30;
-        String firstName = "hello", lastName = "goodbye";
-        int average = (a + b + c)/3;
+        int a1 = 10, b = 20, c = 30;
+        int average = (a1 + b + c)/3;
 
-        System.out.println(format: " The average is " + average);
+        System.out.println(" The average is " + average);
 
         int nummer = 56;
+        //1.11 a.
+
+        boolean isRaining = true;
+        boolean isCold = true;//b.false
+        if (isRaining == true && isCold == true) {
+            System.out.println("Stay inside");
+        }
+        else {
+            System.out.println("You can go outside");
+        }
+        
 
 
 
