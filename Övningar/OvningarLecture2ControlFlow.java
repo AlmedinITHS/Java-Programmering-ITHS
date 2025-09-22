@@ -25,7 +25,7 @@ public class OvningarLecture2ControlFlow {
         x = 12; y = 0;
         y = x * x - 2 * x + 30;
         if(x < y) {
-            x = 1;
+            y = 1;
         }
         else {
             y = 0;
