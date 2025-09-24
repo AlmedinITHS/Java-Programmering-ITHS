@@ -5,7 +5,7 @@ public class student {
     private int age;
     private double grade;
 
-private student(String name, int age, double grade) {
+public student(String name, int age, double grade) {
     this.name = name;
     this.age = age;
     this.grade = grade;
@@ -18,7 +18,7 @@ public void printDetails() {
 public static void main(String[] args) {
     student student = new student("Max", 30,7.7);
     student.printDetails();
-}
+    }
 }
 
 
