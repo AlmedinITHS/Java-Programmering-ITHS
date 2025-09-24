@@ -34,7 +34,9 @@ public class car {
         System.out.println("\n");
 
         car car3 = new car("Ford");
-        car3.printDetails();
+        car3.printDetails();  
+        
+        // Hjälp med outputen i terminalen vid körning, varför?
     }
 
 
