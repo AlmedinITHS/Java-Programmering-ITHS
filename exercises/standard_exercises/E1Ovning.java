@@ -13,7 +13,7 @@ public class E1Ovning { //Namnet på filen
         String myFirstName2 = "Max";
 
         //1.3
-        System.out.println("My name is" + myFirstName + " and I am " + myAge);
+        System.out.println("My name is " + myFirstName + " and I am " + myAge);
         //1.4
         boolean theTruth = false;
         System.out.println(theTruth);

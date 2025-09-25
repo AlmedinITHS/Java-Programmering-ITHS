@@ -16,7 +16,7 @@ public class distanceConverter {
         String name = scan.next();
 
         System.out.println("Please input your initials, if any; ");
-        char nameInitials = scan.ne();
+        //char nameInitials = scan.ne();
 
         scan.close();
 
