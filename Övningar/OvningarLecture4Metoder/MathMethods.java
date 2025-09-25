@@ -66,7 +66,7 @@ public class MathMethods  {
             int fiboResult = calculateFibonacci(fiboInput);
             System.out.println("The fibonacci number at position " + fiboInput + " is: " + fiboResult);
 
-            System.out.print("PrimeChecker: Enter a positive Integer: ");
+            System.out.print("PrimeChe3cker: Enter a positive Integer: ");
             int primeInput = scanner.nextInt();
             boolean primeResult = primeChecker(primeInput);
             if(primeResult == true) {
