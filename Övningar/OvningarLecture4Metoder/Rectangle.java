@@ -4,12 +4,12 @@ public class Rectangle {
     private double a;
     private double b;
 
-    public double computeArea() {
+    public double calculateArea() {
         double area = a * b;
         return area;
     }
-    public double computePerimeter() {
-        double perimeter = a * 2 + b * 2;
+    public double calculatePerimeter() {
+        double perimeter = a*2+b*2;
         return perimeter;
     }
     public double getA() {
