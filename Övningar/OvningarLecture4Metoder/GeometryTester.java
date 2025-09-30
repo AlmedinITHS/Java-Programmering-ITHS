@@ -1,7 +1,7 @@
 package OvningarLecture4Metoder;
 
 import java.util.Scanner;
-import OvningarLecture4Metoder.*;
+
 
 public class GeometryTester {
     public static void main(String[] args) {
