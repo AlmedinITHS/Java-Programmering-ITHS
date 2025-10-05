@@ -1,30 +1,39 @@
-public class DistanceConverter {
-   static double milesToKilometers() {
+package EnklaOvningarFranSlide;
+
+public class EnklaMetoderOvningar {
+     static double milesToKilometers() {
         double miles = 100;
         double kilometers = miles * 1.609344;
         return kilometers;
     }
-    double milesToKilometersNonStatic() {
-        double miles = 100;
+       
+    
+    double milesToKilometer(double miles) {
         double kilometers = miles * 1.609344;
         return kilometers;
     }
-    void echoDistanceInKilometers() {
+    static void EchoDistanceInKilometers() {
         double miles = 100;
         double kilometers = miles * 1.609344;
         System.out.println(kilometers);
     }
- 
     public static void main(String[] args) {
+        
+
         double distanceInKilometers = milesToKilometers();
         System.out.println(distanceInKilometers);
 
-        DistanceConverter dc = new DistanceConverter();
-        double distanceInKilometersNonStatic = dc.milesToKilometersNonStatic();
-        System.out.println(distanceInKilometersNonStatic);
+        double twoPowerOfFour = Math.pow(2, 4);
+        System.out.println(twoPowerOfFour);
+
+        EchoDistanceInKilometers();
+       
+        
 
         
+
         
+         
     }
     
 }

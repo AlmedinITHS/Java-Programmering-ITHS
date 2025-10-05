@@ -1,3 +1,4 @@
+package EnklaOvningarFranSlide;
 public class KlassTestDjurHast {
     int age = 10;
     double weightInKg = 550;
