@@ -1,24 +1,32 @@
 
-import java.util.Scanner;
-
 public class NewTest {
+    int age;
+    double weightInKg;
+    String name;
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        NewTest dog1 = new NewTest();
+        NewTestNyttDjur hast1 = new NewTestNyttDjur();
 
-        System.out.println("Mata in ett nummer mellan 1 och 6: ");
+        dog1.name = "Doris";
+        dog1.age = 1;
+        dog1.weightInKg = 1.6;
+
+        System.out.println("Namn: " + dog1.name + " Ålder: " + dog1.age + " Vikt: " + dog1.weightInKg);
+
+        hast1.stegra();
+        hast1.gnagga();
         
-       int nummer = scan.nextInt();
 
-        if (nummer < 0 || nummer > 6) {
-            System.out.println("Felaktig inmatning, försök igen");
+        System.out.println(hast1.age +"\n"+ hast1.name +"\n"+ hast1.weightInKg);
 
-        }
-        else {
-            System.out.println(" Bra jobbat, du matade in nummer " + nummer);
 
-        }
-        scan.close();
+        
+        
+        
+        
+        
     }
 }
+
     
 
