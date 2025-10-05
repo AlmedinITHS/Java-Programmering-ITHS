@@ -2,9 +2,9 @@ package EnklaOvningarFranSlide;
 
 import java.util.Arrays;
 
-public class Walrus {
+public class WalrusArrayer {
     public static void main(String[] args) {
-        Walrus [] myWalruses = new Walrus[10];
+        WalrusArrayer [] myWalruses = new WalrusArrayer[10];
         System.out.println(myWalruses.length);
     
         System.out.println("\n");
@@ -36,6 +36,11 @@ public class Walrus {
     Arrays.toString(myArray);//Returnerar en String representation av en array. Praktisk för att printa ut arrayer i terminalen
     System.out.println(myArray[element]);
     
+    int [][] MultipleDimensionsArray = new int [3][3]; // Här skapas en array som har nio värden i ett 3x3 rutnät. Inom matematiken kallar
+                                                       //man det här för matriser. Rent praktiskt implementeras det här som en array av arrayer.
+                                                       //Det är alltså en array med tre olika arrayer inuti.
     }
+
+
     
 }
