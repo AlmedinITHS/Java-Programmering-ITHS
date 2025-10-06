@@ -1,4 +1,4 @@
-package EnklaOvningarFranSlide.OvningarLecture6;
+
 
 public class Fordon {
     public int price;
