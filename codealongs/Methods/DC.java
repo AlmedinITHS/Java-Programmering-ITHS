@@ -1,3 +1,4 @@
+package codealongs.Methods;
 import java.util.Scanner;
 
 public class DC {
