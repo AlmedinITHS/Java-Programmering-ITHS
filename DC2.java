@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DC {
+public class DC2 {
     public static void main(String[] args) {
         Introduction();
         Choice();
@@ -27,55 +27,47 @@ public class DC {
     }
 
     static void Introduction() {
-        System.out.println("Welcome to my DistanceCoverter!");
+        System.out.println("Welcome to the DistanceCoverter!");
         System.out.println("Chose 1 to convert to kilometers and 2 to convert to miles.");
     }
 
     static void Choice() {
+        boolean isRunning = true;
 
-        try {
+        while (isRunning) {
+
+         {
             Scanner scan = new Scanner(System.in);
             int userInput = scan.nextInt();
+
             
+
             if (userInput == 1) {
                 System.out.println("Input the value to get it in kilometers: ");
                 double miles = milesToKilometers();
                 System.out.println(miles);
             } else if (userInput == 2) {
-                System.out.println("Input the value to get it in miles");
+                System.out.println("Alright mr imperialist, input the value to get it in miles");
                 double kilometers = KilometersToMiles();
                 System.out.println(kilometers);
-            } else {
-                System.out.println("Invalid choice. Please enter 1 or 2.");
-                Choice();
-                scan.close();
-                
                 
             }
-            System.out.println("Do you want to convert again? Yes/No?");
-            String StringUserInput = scan.nextLine();
-            if (StringUserInput == "Yes") {
+            else if (userInput != 1 || userInput != 2) {
+                System.out.println("Invalid input.");
+            } 
+            
+            System.out.println("Do you want to convert another distance? Yes/No?");
+            String answer =scan.nextLine();
+            if (answer == "Yes") {
                 Choice();
-            } else if (StringUserInput == "No") {
-                System.out.println("Thank you for converting, bye bye!");
-                scan.close();
             }
-
-        } catch (Exception e) {
-            System.out.println("Invalid input. Enter numbers only. ");
-            Choice();
+            else if (answer =="No") {
+                System.out.println("Thank you for converting. Bye!");
+            }
+            isRunning = false;
         }
-
+        
     }
-
-}/*
-  * Jag testade att lägga en booleanvariabel i en whileloop från början av
-  * metoden
-  * och fick problemet att catchkodblocket blev en oändlig loop. Jag testade både
-  * med
-  * nästalade ifsatser och switchsatser med samma booleanvariabel-loop och blev
-  * psykad.
-  * I slutändan klurade jag ut att jag bara kan starta om metoden Choice efter
-  * else if,
-  * else och catch-satserna
-  */
+        
+}
+}
