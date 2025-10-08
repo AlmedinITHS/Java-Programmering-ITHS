@@ -7,7 +7,7 @@ public class Parrot extends Animal implements Talking {
         this.name = name;
     }
     public void fly(double timeMinutes) {
-        System.out.println(name + " flaps its wings and flies for " + time + " seconds.");
+        System.out.println(name + " flaps its wings and flies for " + timeMinutes + " seconds.");
     }
 
     public void talk(String message) {
