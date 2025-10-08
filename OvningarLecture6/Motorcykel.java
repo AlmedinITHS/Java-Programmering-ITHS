@@ -1,6 +1,7 @@
 package OvningarLecture6;
 
 
-public class Motorcykel extends Fordon {
+public class Motorcykel extends LandsbaseradeFordon {
     
+    public 
 }
