@@ -1,6 +1,6 @@
 package PolymorfismEgenOvning;
 
-public class Animal {
+abstract class Animal {
     public int age;
     protected double weight;
     private double length;
