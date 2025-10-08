@@ -48,16 +48,17 @@ public class DC2 {
                 double miles = milesToKilometers();
                 System.out.println(miles);
             } else if (userInput == 2) {
-                System.out.println("Alright mr imperialist, input the value to get it in miles");
+                System.out.println("Input the value to get it in miles");
                 double kilometers = KilometersToMiles();
                 System.out.println(kilometers);
                 
             }
-            else if (userInput != 1 || userInput != 2) {
+            else {
                 System.out.println("Invalid input.");
             } 
             
             System.out.println("Do you want to convert another distance? Yes/No?");
+            scan.nextLine();
             String answer =scan.nextLine();
             if (answer == "Yes") {
                 Choice();
@@ -65,7 +66,7 @@ public class DC2 {
             else if (answer =="No") {
                 System.out.println("Thank you for converting. Bye!");
             }
-            isRunning = false;
+            
         }
         
     }

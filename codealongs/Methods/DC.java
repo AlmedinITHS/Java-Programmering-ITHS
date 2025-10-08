@@ -49,11 +49,12 @@ public class DC {
             } else {
                 System.out.println("Invalid choice. Please enter 1 or 2.");
                 Choice();
-                scan.close();
+                
                 
                 
             }
             System.out.println("Do you want to convert again? Yes/No?");
+            scan.nextLine();
             String StringUserInput = scan.nextLine();
             if (StringUserInput == "Yes") {
                 Choice();
@@ -63,11 +64,11 @@ public class DC {
             }
 
         } catch (Exception e) {
-            System.out.println("Invalid input. Enter numbers only. ");
-            Choice();
+            System.out.println("Invalid input. Enter numbers only. ");  
+            Choice();   
         }
-
     }
+    
 
 }/*
   * Jag testade att lägga en booleanvariabel i en whileloop från början av
