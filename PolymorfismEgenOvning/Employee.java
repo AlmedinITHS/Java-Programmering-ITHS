@@ -1,4 +1,4 @@
-package ChatGTPOvning;
+package PolymorfismEgenOvning;
 
 public class Employee {
     String name;

@@ -1,4 +1,4 @@
-package ChatGTPOvning;
+package PolymorfismEgenOvning;
 
 public class Parrot extends Animal implements Talking {
 
@@ -6,7 +6,7 @@ public class Parrot extends Animal implements Talking {
         super(age, weight, length);// super kallar på parentklassen Animal
         this.name = name;
     }
-    public void fly(double time) {
+    public void fly(double timeMinutes) {
         System.out.println(name + " flaps its wings and flies for " + time + " seconds.");
     }
 
@@ -14,5 +14,4 @@ public class Parrot extends Animal implements Talking {
         System.out.println(name + " says: " + message);
     }
 
-    
 }

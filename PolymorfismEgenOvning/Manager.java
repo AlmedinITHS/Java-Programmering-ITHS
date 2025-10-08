@@ -1,4 +1,4 @@
-package ChatGTPOvning;
+package PolymorfismEgenOvning;
 
 class Manager extends Employee {
     double bonus;

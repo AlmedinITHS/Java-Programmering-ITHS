@@ -1,4 +1,4 @@
-package ChatGTPOvning;
+package PolymorfismEgenOvning;
 
 public class Animal {
     public int age;
