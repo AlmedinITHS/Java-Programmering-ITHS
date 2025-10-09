@@ -1,8 +1,9 @@
 package codealongs.Polymorphism.finished;
 abstract class Animal { //Abstract class utökas till subklasser
     public int age;     //Man kan inte skapa objekt från dem
-    protected double weight;
-    private double length;
+                        //Public Synlig för alla klasser, ävven subklasser 
+    protected double weight; //Protected: Osynlig för utomstående klasser men synlig för subklasser
+    private double length; // Private: Osynlig för alla klasser, även subklasser
 
     public String name;
 
