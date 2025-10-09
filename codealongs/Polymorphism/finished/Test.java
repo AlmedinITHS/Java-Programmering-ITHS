@@ -3,7 +3,7 @@ package codealongs.Polymorphism.finished;
 public class Test {
     public static void main(String[] args) {
         Walrus w = new Walrus(14, 261.3, 124.1);
-        //  Animal a = new Animal(14, 261.3, 124.1);
+        
 
         w.printAge();
         w.printLength();
@@ -12,7 +12,7 @@ public class Test {
         System.out.println(w instanceof Walrus);
         System.out.println(w instanceof Animal);
 
-        //  walrusChecker(a);
+        
         walrusChecker(w);
 
         Parrot p = new Parrot(8, 0.314, 23.7,"Paulie");
