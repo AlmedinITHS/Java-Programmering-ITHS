@@ -1,4 +1,4 @@
-package PolymorfismEgenOvning.PolymorfismUppgift;
+package PolymorfismEgenOvning.PolymorfismUppgift.Uppgift1;
 
 public class Bil extends Fordon{
     

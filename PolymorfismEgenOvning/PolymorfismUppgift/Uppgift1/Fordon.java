@@ -1,6 +1,7 @@
-package PolymorfismEgenOvning.PolymorfismUppgift;
+package PolymorfismEgenOvning.PolymorfismUppgift.Uppgift1;
 
 abstract class Fordon {
+
     private int price;
     protected double weight; 
 
@@ -10,6 +11,7 @@ abstract class Fordon {
     }
     public int getPrice() {
         return price;
+        
     }
     public void setPrice(int price) {
         this.price = price;
