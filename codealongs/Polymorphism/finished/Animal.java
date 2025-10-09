@@ -1,6 +1,6 @@
 package codealongs.Polymorphism.finished;
-abstract class Animal {
-    public int age;
+abstract class Animal { //Abstract class utökas till subklasser
+    public int age;     //Man kan inte skapa objekt från dem
     protected double weight;
     private double length;
 

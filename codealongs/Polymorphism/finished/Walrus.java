@@ -1,7 +1,8 @@
 package codealongs.Polymorphism.finished;
 
-public class Walrus extends Animal {
-
+public class Walrus extends Animal { 
+    // Parentclass Animal ärver subklassen Walrus
+    //extends Animal är subklassen                                 
     public void printWeight() {
         System.out.println("Weight: " + weight);
     }
