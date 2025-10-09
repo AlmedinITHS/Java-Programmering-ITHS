@@ -7,8 +7,8 @@ abstract class Animal { //Abstract class utökas till subklasser
 
     public String name;
 
-    public Animal(int age, double weight, double length) {
-        this.age = age;
+    public Animal(int age, double weight, double length) { //Konstruktor med tre parametrar, som heter exakt som klassen
+        this.age = age; 
         this.weight = weight;
         this.length = length;
     }
