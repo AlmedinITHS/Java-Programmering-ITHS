@@ -2,42 +2,44 @@ package PolymorfismEgenOvning;
 
 public class Test {
     public static void main(String[] args) {
-        Walrus Walrs = new Walrus(10, 150, 110);
+        Walrus walrus1 = new Walrus(15, 250, 125);
+        
+        walrus1.printAge();
+        walrus1.printLength();
+        walrus1.printWeight();
 
-        Walrs.printAge();
-        Walrs.printWeight();
-        Walrs.printLength();
+        System.out.println(walrus1 instanceof Walrus);
+        System.out.println(walrus1 instanceof Animal);
 
-        System.out.println(Walrs instanceof Walrus);
-        System.out.println(Walrs instanceof Animal);
+        walrusChecker(walrus1);
 
-        walrusChecker(Walrs);
+        Parrot parrot1 = new Parrot(10, 0.0050, 0.15, "Tommy");
+        parrot1.fly(20.6);
+        parrot1.talk("Tommy wants a cracker!");
 
-        Parrot parrt = new Parrot(3, 0.050, 0.15, "Tommy");
-        parrt.fly(20.6);
-        parrt.talk("Tommy wants a cracker!");
+        Robot robot1 = new Robot();
+        robot1.talk("Hello");
+        robot1.talk("The weather surely is lovely today!");
 
-        Robot robt = new Robot();
-        robt.talk("Hello!");
-        robt.talk("The weather surely is lovely today!");
+        walrusChecker(parrot1);
+        System.out.println("This object is a: " + parrot1.getClass().getSimpleName() + " object.");
 
-        walrusChecker(parrt);
-        System.out.println("This object is a: " + robt.getClass().getSimpleName() + " object");
-
-        introduce(parrt);
-        introduce(robt);
+        introduce(parrot1);
+        introduce(robot1);
 
 
     }
     public static void walrusChecker(Animal a) {
-        if (a instanceof Walrus != true) {
-            System.out.println("This animal is not a walrus!");
-        }
-        else {
-            System.out.println("Seems like this is indeed a Walrus!");
-        }
+    if (a instanceof Walrus != true) {
+        System.out.println("This is not a Walrus!");
     }
+    else {
+        System.out.println("Seems like this is indeed a Walrus!");
+    }
+}
+
     public static void introduce(Talking t) {
-      t.talk("Hello!");
+        t.talk("Hellow!");
+    
     }
 }
