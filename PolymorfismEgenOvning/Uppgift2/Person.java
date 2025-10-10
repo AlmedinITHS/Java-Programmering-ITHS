@@ -6,11 +6,14 @@ abstract class Person {
     public int age;
     private double pengarPaBanken;
 
+    public String foretagsnamn;
+
     public Person(String namn, String jobb, int age, int pengarPaBanken) {
         this.namn = namn;
         this.jobb = jobb;
         this.age = age;
         this.pengarPaBanken = pengarPaBanken;
+        
     }
     public double getPengar() {
         return pengarPaBanken;

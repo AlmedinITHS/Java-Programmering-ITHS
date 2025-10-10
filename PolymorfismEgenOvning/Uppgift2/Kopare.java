@@ -7,7 +7,11 @@ public class Kopare extends Person {
         
     }
     public void printInfoKopare() {
-        System.out.prinln("Köpare info:" + namn + jobb + age + getPengar());
+        System.out.println("Köpare info:" + namn + jobb + age + getPengar());
+    }
+    public void buyVehicle(Person a, Bil b) {
+        int pengarKvar = Person.setPengar - Bil.price;
+        
     }
 
     
