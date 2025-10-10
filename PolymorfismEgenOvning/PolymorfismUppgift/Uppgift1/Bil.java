@@ -1,7 +1,8 @@
 package PolymorfismEgenOvning.PolymorfismUppgift.Uppgift1;
 
-public class Bil extends Fordon{
-    
+public class Bil extends Fordon implements Ager{
+
+    public String namnAgare;
     public Bil(int price, double weight) {
         super(price, weight);
     }
