@@ -2,7 +2,7 @@ import java.util.Set;//Interface
 import java.util.HashSet;//Class
 import java.util.List;
 //Vill man ha med allting, ta med stjärnan *
-public class Test {
+public class Looparocharray {
     public static void main(String[] args) {
         for (int i = 1; i < 10; i++) {
             if (i % 2 != 0)
@@ -24,8 +24,9 @@ public class Test {
 
         for (int i = 0; i < 10; i ++) {
             numbers[i] = i + 1;
+            System.out.println(numbers[i]);
         }
-        for(int j = 1; j < 10; j++) {
+        for(int j = 0; j < 10; j++) {
             System.out.println(numbers[j]);
         }
         for(int k : numbers) {
