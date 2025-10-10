@@ -4,31 +4,35 @@ import java.util.List;
 //Vill man ha med allting, ta med stjärnan *
 public class Test {
     public static void main(String[] args) {
-        int [] myIntArray;
+        for (int i = 1; i < 10; i++) {
+            if (i % 2 != 0)
+            System.out.println(i);
+        }
+        int num = 2;
+        while (num <= 20) {
+            System.out.println(num);
+            num += 2;
+        }
+        int number = 5;
+        for (int i= 1; i < 50; i ++) {
+            System.out.println(number + " * " + i + " = " + (number * i));
+        }
 
-        myIntArray = new int[3];
-
-        Test [] myTestArray;
-
-        myIntArray[0] = 28;
-        myIntArray[1] = 120;
-        myIntArray[2] = 500;
-
-        System.out.println(myIntArray[2]);
-
-        Set myList = new HashSet();
-
-        Set<String> myStringList = new HashSet<>();
-        //Set är ett interface              HashSet är en klass
-
-        List<String> name = new ArrayList <String>();
-
-        Queue<String> turordning = new LinkedList<String>();
-
-        Deque<String> turordning = new LinkedList<String>();
-
-        Map<Key, Value> = trainerList = new HashMap<>();
         
+    
+        int [] numbers = new int [10];
+
+        for (int i = 0; i < 10; i ++) {
+            numbers[i] = i + 1;
+        }
+        for(int j = 1; j < 10; j++) {
+            System.out.println(numbers[j]);
+        }
+        for(int k : numbers) {
+            System.out.println(numbers[k-1]); //Denna enhancedloopen börjar på 1, därför
+                                              //Måste jag skriva k-1 så att den börjar på
+        }                                     //0
     }
+
     
 }

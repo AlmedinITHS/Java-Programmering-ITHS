@@ -9,6 +9,9 @@ public class MainFordon {
         Bat bat1 = new Bat(500000, 10000);
 
         bat1.go();
+        System.out.println(bat1.getPrice());
+        System.out.println(bat1.weight);
+        
         
 
 
