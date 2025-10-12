@@ -2,14 +2,13 @@ package PolymorfismEgenOvning.PolymorfismUppgift.Uppgift1;
 
  public interface Ager {
 
-    public class Bil implements Ager{
-      public void Aga(String namn) {
-         System.out.println("Bilen: " + namn);
-
+    public class Fordon implements Ager{
+      public void Aga(String namnAgare) {
+         System.out.println("Fordonet ägs av: " + namnAgare);
       }
 
     }
 
-    }
+    
 
  }

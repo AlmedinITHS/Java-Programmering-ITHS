@@ -11,6 +11,10 @@ public class MainFordon {
         bat1.go();
         System.out.println(bat1.getPrice());
         System.out.println(bat1.weight);
+
+        bat1.namnAgare = "Annika";
+
+        System.out.println(bat1.namnAgare);
         
         
 
