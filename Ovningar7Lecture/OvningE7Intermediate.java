@@ -22,7 +22,7 @@ public class OvningE7Intermediate {
     }
     public static void removeEvenNumbers(ArrayList <Integer> numbers) {
         
-        for(int i = 0; i < numbers; i--) {
+        for(int i = 0; i < numbers.length; i--) {
            while (i % 2 == 0) {
             numbers.remove(i);
            }
