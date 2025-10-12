@@ -106,6 +106,13 @@ public class OvningE7 {
 
         //I1 Exercise
 
+        ArrayList<Integer> intNumbers = new ArrayList<>();
+        
+        for(int i = 0; i <= 10; i ++) {
+            intNumbers.add(i);
+        }
+        System.out.println(intNumbers);
+
         
 
 
@@ -118,6 +125,7 @@ public class OvningE7 {
 
 
     }
+    
 
     public static void SpaceLine() {
         System.out.println("\n");
