@@ -1,5 +1,5 @@
-package Ovningar7Lecture.java;
-import java.util.*;
+
+
 
 public class Klasslista {
     public static void main(String[] args) {
