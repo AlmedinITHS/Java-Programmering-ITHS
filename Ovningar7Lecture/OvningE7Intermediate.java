@@ -27,10 +27,8 @@ public class OvningE7Intermediate {
            if (numbers.get(i) % 2 == 0) {
             numbers.remove(i);
            }
-           
-           System.out.println("Removed all even numbers: "  + numbers);
         }
-        
+        System.out.println("Removed all even numbers: "  + numbers);
 
         //public static void doubNumbers(ArrayList <Integer> numbers, int x2) {
           //  int numbers * x2};
