@@ -15,6 +15,8 @@ public class OvningE7Intermediate {
         
         removeEvenNumbers(numbers);
 
+        doublingTheNumbers(numbers);
+
 
 
 
@@ -29,14 +31,44 @@ public class OvningE7Intermediate {
            }
         }
         System.out.println("Removed all even numbers: "  + numbers);
+    }
+        
 
         //public static void doubNumbers(ArrayList <Integer> numbers, int x2) {
           //  int numbers * x2};
 
+          public static void doublingTheNumbers(ArrayList <Integer> numbers) {
+
+            for(int i = 0; i < numbers.size(); i++) {
+                int doubled = numbers.get(i) * 2;
+                numbers.set(i, doubled);
+                
+            }
+            System.out.println(numbers);    
+         }
+
+         public static int average(ArrayList <Integer> numbers) {
+            for(int i = 0; i < numbers.size(); i++) {
+                int average = average /numbers.size(i);
+                
+                
+            
+            }
+            System.out.println(numbers);
+        }
+          
+        
+        
+        
+    }
+
+
+
+    
 
 
         
 
-    }
     
-}
+    
+
