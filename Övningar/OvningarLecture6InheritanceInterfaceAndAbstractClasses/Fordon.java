@@ -1,4 +1,4 @@
-package OvningarLecture6;
+package OvningarLecture6InheritanceInterfaceAndAbstractClasses;
 
 
 public class Fordon {
