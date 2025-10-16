@@ -13,7 +13,7 @@ public class ContainerClass {
     public void printWorkDetails() {
         System.out.println("Company name: " + CompanyName);
         System.out.println("Position: " + adress);
-        System.out.println("Workspace: " + workSpace);
+        System.out.println("Workspace: " + workSpace + "\n");
     
 }
 

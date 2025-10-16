@@ -8,12 +8,18 @@ public class PersonMain {
 
         work2.printWorkDetails();
 
-        work2.ContainerClass("TransportExpress", "Arlington avenue 25, Washington"," Truck");
+        work2.CompanyName = "TransportExpress";
+        work2.adress = "Arlington avenue 22";
+        work2.workSpace = "Inside of a truck";
+
+        work2.printWorkDetails();
 
         Person person1 = new Person("Dino", 36, "Software tester", true);
         Person person2 = new Person("Anna",32,"Software developer",true);
         Person person3 = new Person("Peter",29,"Software tester", false);
-
+        Person person4 = new Person("Viktoria", 25, "cleaning", false);
+        
+        
     }
     
 }
